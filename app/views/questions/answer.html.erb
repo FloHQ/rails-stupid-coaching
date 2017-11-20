@@ -1,0 +1,14 @@
+
+<div class="container">
+  <h1>The coach's answer</h1>
+    <div class="conversation ">
+      <p><%= @question %></p>
+      <p> - You</p>
+    </div>
+
+    <div class="conversation coach">
+      <p><%= @answer %></p>
+      <p> - Your coach</p>
+    </div>
+    <p><%= link_to 'Ask a new question', '/ask' %></p>
+</div>
